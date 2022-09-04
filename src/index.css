@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +13,8 @@ a {
   text-decoration: none;
 }
 
-input, button {
+input,
+button {
   margin: 0;
   padding: 0;
   border: none;
@@ -29,6 +31,7 @@ ul {
 .container {
   max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
 }
 
 #root {

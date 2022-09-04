@@ -1,12 +1,13 @@
 import { colors } from "assets/styles";
-import styled from "styled-components";
+import styled from "styled-components/macro";
+import { DesktopMenu } from "./components";
 
 export const Header = () => {
     return (
         <Root>
             <Container className="container">
                 <Inner>
-                    <LogoIconWrap>B.</LogoIconWrap>
+                    <DesktopMenu />
                 </Inner>
             </Container>
         </Root>
@@ -28,8 +29,4 @@ const Inner = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
-`;
-
-const LogoIconWrap = styled.div`
-    background: linear-gradient(90deg, ${colors.primary} 7.27%, ${colors.primaryDark} 100%);
 `;
